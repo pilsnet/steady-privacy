@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steady — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            line-height: 1.6;
+            color: #222;
+            background: #fff;
+        }
+        h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+        h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        h3 { font-size: 1em; margin-top: 1.2em; }
+        ul { padding-left: 1.4em; }
+        .subtitle { color: #666; font-size: 0.95em; margin-bottom: 2em; }
+        a { color: #0071e3; }
+        @media (prefers-color-scheme: dark) {
+            body { background: #1a1a1a; color: #e0e0e0; }
+            h2 { border-bottom-color: #333; }
+            .subtitle { color: #999; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle"><strong>Steady — Sober Days</strong><br>Last updated: April 11, 2026</p>
+
+    <p>Carey Pillar ("we", "us") built Steady as a free, private cannabis sobriety tracker and daily mental health practice. This policy describes what data the app handles and how.</p>
+
+    <h2>Data Collection</h2>
+    <p><strong>Steady collects zero data.</strong> No accounts. No email. No analytics. No crash reporting. No advertising. No third-party SDKs. There is no developer-accessible backend. We cannot see, access, or retrieve any of your data.</p>
+
+    <h2>Data Stored on Your Device</h2>
+    <p>Steady stores the following data locally on your device using Apple's SwiftData framework:</p>
+    <ul>
+        <li>Quit date and sobriety streak</li>
+        <li>Daily check-ins (mood, energy, anxiety, sleep quality, dreams, reflections)</li>
+        <li>Craving logs (trigger, intensity, duration)</li>
+        <li>Slip records (timestamp, trigger, private notes)</li>
+        <li>Reaction-time test results</li>
+        <li>Achievement unlocks</li>
+        <li>Weekly reflections (three good things)</li>
+        <li>Calm tool usage records</li>
+        <li>Cost/time baselines you enter</li>
+    </ul>
+
+    <h2>iCloud Sync</h2>
+    <p>If you are signed into iCloud, your data syncs to your private iCloud container via Apple CloudKit. This syncs data across your own devices only. Steady uses CloudKit's private database exclusively. Your iCloud data is protected by your Apple ID and Apple's iCloud security infrastructure. We have no access to your iCloud container.</p>
+
+    <h2>Apple HealthKit</h2>
+    <p>With your explicit permission (toggled in Settings), Steady reads the following from Apple Health:</p>
+    <ul>
+        <li>Sleep analysis (asleep core, deep, REM durations)</li>
+        <li>Heart rate variability (HRV SDNN)</li>
+        <li>Exercise time</li>
+    </ul>
+    <p><strong>Steady never writes to HealthKit.</strong> Health data is read on-device, computed in memory, and never stored in SwiftData or synced to CloudKit. Only the fact of computed achievement unlocks (e.g., "First Full Night") is stored. Raw HealthKit data never leaves your device's HealthKit sandbox.</p>
+
+    <h2>Optional Partner Sharing</h2>
+    <p>You may optionally share milestone and slip events with one trusted person via Apple's CloudKit Share. The partner sees an event log only. They never see your daily data, mood, journal entries, dream logs, notes, triggers, or HealthKit data. Partner sharing is off by default and requires explicit setup.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>Steady uses zero third-party services. The only Apple frameworks used are:</p>
+    <ul>
+        <li><strong>Apple CloudKit</strong> — for iCloud sync (your private container only)</li>
+        <li><strong>Apple HealthKit</strong> — read-only, with your explicit permission</li>
+        <li><strong>Apple ActivityKit</strong> — for Live Activities on your Lock Screen</li>
+        <li><strong>Apple UserNotifications</strong> — local notifications only, no remote push</li>
+    </ul>
+    <p>No analytics SDKs (no Firebase, no Mixpanel, no Amplitude). No advertising SDKs. No crash reporting SDKs (no Crashlytics, no Sentry). No attribution SDKs.</p>
+
+    <h2>Data Sharing</h2>
+    <p>Steady does not sell, rent, or share your data with anyone. You may choose to export your data as a JSON file via the share sheet in Settings. Exported files contain all your tracker data. You control who receives exported files.</p>
+
+    <h2>Data Deletion</h2>
+    <p>You can delete all data within the app via Settings (Debug menu in development builds). To delete all data permanently, uninstall the app and remove Steady data from iCloud via Settings > Apple ID > iCloud > Manage Storage.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Steady is rated 17+ due to cannabis cessation content. It is not intended for children under 17.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If we update this policy, we will post the revised version here with an updated date. Steady has no way to notify you of policy changes (no email, no push) — check this page if you want to verify.</p>
+
+    <h2>Support</h2>
+    <p>For questions or support, email <a href="mailto:cpillar@gmail.com">cpillar@gmail.com</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Carey Pillar<br>Saskatchewan, Canada<br><a href="mailto:cpillar@gmail.com">cpillar@gmail.com</a></p>
+</body>
+</html>
