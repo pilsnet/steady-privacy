@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["6U357DJVC2.com.careypillar.Steady"],
+        "components": [
+          {
+            "/": "/share/*",
+            "comment": "CloudKit Share invite links for F17 partner sharing"
+          }
+        ]
+      }
+    ]
+  }
+}
