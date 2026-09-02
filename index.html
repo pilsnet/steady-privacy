@@ -29,7 +29,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="subtitle"><strong>Steady — Sober Days</strong><br>Last updated: August 29, 2026</p>
+    <p class="subtitle"><strong>Steady — Sober Days</strong><br>Last updated: September 1, 2026</p>
 
     <p>Carey Pillar ("we", "us") built Steady as a free, private cannabis sobriety tracker and daily mental health practice. This policy describes what data the app handles and how.</p>
 
@@ -40,13 +40,17 @@
     <p>Steady stores the following data locally on your device using Apple's SwiftData framework:</p>
     <ul>
         <li>Quit date and sobriety streak</li>
-        <li>Daily check-ins (mood, energy, anxiety, sleep quality, dreams, reflections)</li>
+        <li>Daily check-ins (an emotion word, sleep hours, a short reflection, dreams; older entries may hold mood/energy/anxiety ratings)</li>
         <li>Craving logs (trigger, intensity, duration)</li>
         <li>Slip records (timestamp, trigger, private notes)</li>
         <li>Reaction-time test results</li>
         <li>Achievement unlocks</li>
         <li>Weekly reflections (three good things)</li>
         <li>Calm tool usage records</li>
+        <li>"Good I did" entries (short notes and a category)</li>
+        <li>Letters you write to your future self</li>
+        <li>Early Signals check-ins (your own yes/no items and two optional short questionnaire scores), if you turn that feature on</li>
+        <li>Your plan card, if you fill one in — including the names and phone numbers of people you choose to list. Those contacts are stored only in your own iCloud with the rest of your data and are never sent anywhere else.</li>
         <li>Cost/time baselines you enter</li>
     </ul>
 
@@ -70,8 +74,7 @@
     <ul>
         <li><strong>Apple CloudKit</strong> — for iCloud sync (your private container only)</li>
         <li><strong>Apple HealthKit</strong> — read-only, with your explicit permission</li>
-        <li><strong>Apple ActivityKit</strong> — for Live Activities on your Lock Screen</li>
-        <li><strong>Apple UserNotifications</strong> — local notifications only, no remote push</li>
+        <li><strong>Apple UserNotifications</strong> — optional local reminders you turn on in Settings. If you use partner sharing, the app also registers for silent iCloud push so a shared event can reach your supporters; that push carries no content beyond "an update from someone you're supporting."</li>
     </ul>
     <p>No analytics SDKs (no Firebase, no Mixpanel, no Amplitude). No advertising SDKs. No crash reporting SDKs (no Crashlytics, no Sentry). No attribution SDKs.</p>
 
